@@ -1,0 +1,14 @@
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\OwaspZapSecurityTesting.Tests.dll
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\OwaspZapSecurityTesting.Tests.pdb
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\OWASPZAPDotNetAPI.dll
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\obj\Debug\OwaspZapSecurityTesting.Tests.csproj.CoreCompileInputs.cache
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\obj\Debug\OwaspZapSecurityTesting.Tests.dll
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\obj\Debug\OwaspZapSecurityTesting.Tests.pdb
+C:\ytelse\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\obj\Debug\OwaspZapSecurityTesting.Tests.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\b\SITLoad\Debug\netstandard2.0\SITLoad.deps.json
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\b\SITLoad\Debug\netstandard2.0\SITLoad.dll
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\b\SITLoad\Debug\netstandard2.0\SITLoad.pdb
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\i\SITLoad\Debug\netstandard2.0\SITLoad.csprojResolveAssemblyReference.cache
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\i\SITLoad\Debug\netstandard2.0\SITLoad.csproj.CoreCompileInputs.cache
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\i\SITLoad\Debug\netstandard2.0\SITLoad.AssemblyInfoInputs.cache
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\i\SITLoad\Debug\netstandard2.0\SITLoad.AssemblyInfo.cs
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\i\SITLoad\Debug\netstandard2.0\SITLoad.dll
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\i\SITLoad\Debug\netstandard2.0\SITLoad.pdb

@@ -1,0 +1,12 @@
+{
+	"messages": [
+		"Account provider not initialized, cannot perform action",
+		"Microsoft Account",
+		"Work or school account"
+	],
+	"keys": [
+		"accountProviderNotInitialized",
+		"microsoftAccountDisplayName",
+		"azureWorkAccountDisplayName"
+	]
+}

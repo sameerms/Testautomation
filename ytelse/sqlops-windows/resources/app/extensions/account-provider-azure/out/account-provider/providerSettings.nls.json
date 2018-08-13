@@ -1,0 +1,14 @@
+{
+	"messages": [
+		"Azure",
+		"Azure (US Government)",
+		"Azure (China)",
+		"Azure (Germany)"
+	],
+	"keys": [
+		"publicCloudDisplayName",
+		"usGovCloudDisplayName",
+		"chinaCloudDisplayName",
+		"germanyCloud"
+	]
+}

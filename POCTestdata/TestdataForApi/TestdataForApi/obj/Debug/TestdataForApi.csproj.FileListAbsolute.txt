@@ -1,0 +1,16 @@
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\TestdataForApi.dll.config
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\TestdataForApi.dll
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\TestdataForApi.pdb
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\Newtonsoft.Json.dll
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+c:\POCTestdata\TestdataForApi\TestdataForApi\bin\Debug\Newtonsoft.Json.xml
+c:\POCTestdata\TestdataForApi\TestdataForApi\obj\Debug\TestdataForApi.csprojResolveAssemblyReference.cache
+c:\POCTestdata\TestdataForApi\TestdataForApi\obj\Debug\TestdataForApi.csproj.CoreCompileInputs.cache
+c:\POCTestdata\TestdataForApi\TestdataForApi\obj\Debug\TestdataForApi.dll
+c:\POCTestdata\TestdataForApi\TestdataForApi\obj\Debug\TestdataForApi.pdb

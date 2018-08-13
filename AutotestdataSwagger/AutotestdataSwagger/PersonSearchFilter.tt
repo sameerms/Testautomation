@@ -1,0 +1,75 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="$(SolutionDir)packages\RestSharp.105.2.3\lib\net452\RestSharp.dll" #>
+<#@ assembly name="$(SolutionDir)packages\EHelse.Grunndata.TestdataApi.2.1.3\lib\net452\HodorCommon.dll" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="RestSharp" #>
+<#@ import namespace="HodorCommon.Models.Api" #>
+using System;
+using System.Globalization;
+using System.Text;
+
+namespace TestdataApi
+{
+	public class PersonSearchFilter : SearchFilterBase, IQueryFilter
+	{
+		<#  
+		var client = new RestClient(@"https://ehelsetestdata.azurewebsites.net/");
+			var request = new RestRequest("/api/Filters/person");
+			var data = client.Execute<List<ApiFilterGroup>>(request);
+		var filters = data.Data;
+		 foreach(var g in filters){ 
+		 #>
+[GeneratedFilterChildClass(<#= g.Items != null && g.Items.Any() ? "true" : "false" #>)]
+		public <#= CleanFilterName(g.Name) #>Class <#= CleanFilterName(g.Name)#> { get; set; } = new <#= CleanFilterName(g.Name) #>Class();
+		<# }
+		Action<ApiFilterGroup> IterateThroughGroups = null;
+            IterateThroughGroups = delegate(ApiFilterGroup group)
+            {
+
+        #>
+
+		public class <#= CleanFilterName(group.Name) #>Class { 
+		<#
+		if(group.Groups != null && group.Groups.Any()){
+		
+			foreach(var g in group.Groups){ #>
+	[GeneratedFilterChildClass(<#= g.Items != null && g.Items.Any() ? "true" : "false" #>)]
+			public <#= CleanFilterName(g.Name ) #>Class <#= CleanFilterName(g.Name) #> { get; set; } = new <#= CleanFilterName(g.Name) #>Class();
+		<# }
+		}
+                if (group.Items != null)
+                {
+                    foreach (var filter in group.Items)
+                    {
+            #>
+
+			[GeneratedFilter("<#= filter.FilterString #>", <#= filter.Type.ToString().ToLower() == "bool" ? "false" : "true" #>)]
+			public <#= filter.Type.ToString() == "DateTimeOffset" ? ("DateTimeOffset"): filter.Type.ToString().ToLower()  #><#= filter.Type.ToString() == "String" ? string.Empty : "?"#> <#= CleanFilterName(filter.Name) #> { get; set; } 
+						<#
+                    }
+                }
+                if (group.Groups != null && group.Groups.Any())
+                    group.Groups.ForEach(IterateThroughGroups);
+		#>
+
+		 }
+
+				<#
+            };
+            filters.ForEach(IterateThroughGroups);
+       #>
+	} 
+	
+
+}
+
+<#+ private string CleanFilterName(string name){
+		if(char.IsDigit(name[0])){
+			name = "_" + name;
+		} 
+		return name.Replace(",", "").Replace("§", "_").Replace(" ", "").Replace(".", "").Replace("/", "").Replace("-", "").Replace("(", "").Replace(")", "");
+	}
+	#>

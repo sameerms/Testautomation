@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="SITautologging" Id="968040ce-35a6-4a55-a109-c31a238c39de" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.e7d98ae2-87a3-43cb-86e1-0ab07ccff584.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="e5a1ad6e-3e91-4977-8c7c-81e8cad4dfc0" Version="1.1" Url="http://elsa-portalsit.utvikling.local/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="1" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="6a42b73f-8654-4aa2-8d53-36a8a4106d2d" Version="1.1" Url="http://elsa-portalsit.utvikling.local/fonts/3e1af3ef546b9e6ecef9f3ba197bf7d2.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="1" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://elsa-portalsit.utvikling.local/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="1c5f316d-12f9-4ddd-8192-4b71c7a80e5b" Version="1.1" Url="http://elsa-portalsit.utvikling.local/fonts/42bbe4eefcde1297b11dc4b6491e9746.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://elsa-portalsit.utvikling.local/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="1d7fa6ce-1c3a-4122-8c2f-a6a30ebc5a68" Version="1.1" Url="http://elsa-portalsit.utvikling.local/fonts/ee7b96fa85d8fdb8c126409326ac2d2b.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://elsa-portalsit.utvikling.local/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="07c88dd1-ffe1-4153-993b-ca919089549d" Version="1.1" Url="http://elsa-portalsit.utvikling.local/fonts/1eb7a893589ddce89d81cdb22a356660.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://elsa-portalsit.utvikling.local/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="29bc679a-45ac-4b58-9abf-e2779bd99412" Version="1.1" Url="http://elsa-portalsit.utvikling.local/fonts/89e2666c24d37055bcb60e9d2d9f7e35.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://elsa-portalsit.utvikling.local/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="4c374338-a7a2-4846-93ce-8030450f8b53" Version="1.1" Url="http://elsa-portalsit.utvikling.local/fonts/0fc25386220a58203994ce45fb4ae570.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://elsa-portalsit.utvikling.local/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="3de31794-76a3-4661-b839-8e842f537c7c" Version="1.1" Url="http://elsa-portalsit.utvikling.local/fonts/fc84e998bc29b297ea20321e4c90b6ed.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://elsa-portalsit.utvikling.local/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="87f2cfdb-2c4d-43ca-a478-a582152a955c" Version="1.1" Url="http://elsa-portalsit.utvikling.local/fonts/d1efcd4d126837fe0dcf9b6cf3a00d64.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://elsa-portalsit.utvikling.local/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="4938723c-ab45-4177-b6ca-e81a4e1b4ff7" Version="1.1" Url="http://elsa-portalsit.utvikling.local/fonts/d08840599e05db7345652d3d417574a9.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://elsa-portalsit.utvikling.local/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="95bb0ff6-2c91-48bb-aa1b-c784df2715ba" Version="1.1" Url="http://elsa-portalsit.utvikling.local/fonts/bd19ad60600a1537c00d3b4923a5e5de.ttf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://elsa-portalsit.utvikling.local/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="534b2d9b-f39e-4a2e-a95a-cd166f565588" Version="1.1" Url="http://elsa-portalsit.utvikling.local/config.json" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="accept" Value="application/json" />
+        <Header Name="content-type" Value="application/json" />
+        <Header Name="pragma" Value="no-cache" />
+        <Header Name="Referer" Value="http://elsa-portalsit.utvikling.local/" />
+      </Headers>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

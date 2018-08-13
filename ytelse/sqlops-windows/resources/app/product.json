@@ -1,0 +1,39 @@
+{
+	"nameShort": "sqlops",
+	"nameLong": "SQL Operations Studio",
+	"applicationName": "sqlops",
+	"dataFolderName": ".sqlops",
+	"win32MutexName": "sqlopsstudio",
+	"licenseName": "Microsoft EULA",
+	"licenseUrl": "https://github.com/Microsoft/sqlopsstudio/blob/master/LICENSE.txt",
+	"win32DirName": "SQL Operations Studio",
+	"win32NameVersion": "sqlops",
+	"win32RegValueName": "sqlops",
+	"win32AppId": "{{E34003BB-9E10-4501-8C11-1234AA83F23F}",
+	"win32x64AppId": "{{EA457B21-9E10-494C-ACAB-1234DE069978}",
+	"win32AppUserModelId": "Microsoft.sqlops",
+	"win32ShellNameShort": "SQL Operations Studio",
+	"darwinBundleIdentifier": "com.sqlopsstudio.oss",
+	"reportIssueUrl": "https://github.com/Microsoft/sqlopsstudio/issues/new?labels=customer%20reported%20issue",
+	"requestFeatureUrl": "https://github.com/Microsoft/sqlopsstudio/issues/new?labels=feature-request",
+	"urlProtocol": "sqlops",
+	"enableTelemetry": true,
+	"aiConfig": {
+		"asimovKey": "AIF-5574968e-856d-40d2-af67-c89a14e76412"
+	},
+	"sendASmile": {
+		"reportIssueUrl": "https://github.com/Microsoft/sqlopsstudio/issues/new?labels=customer%20reported%20issue",
+		"requestFeatureUrl": "https://github.com/Microsoft/sqlopsstudio/issues/new?labels=feature-request"
+	},
+	"releaseNotesUrl": "https://go.microsoft.com/fwlink/?linkid=862039",
+	"documentationUrl": "https://go.microsoft.com/fwlink/?linkid=862277",
+	"commit": "8a3011756318a2ded1e6e84332230a2b2bf9c544",
+	"date": "2017-11-06T21:51:43.232Z",
+	"checksums": {
+		"vs/workbench/workbench.main.js": "d7Z659QXrWni22vQ+1m4bA",
+		"vs/workbench/workbench.main.css": "dBc4J86OXrbLcOlBl9FWbQ",
+		"vs/workbench/electron-browser/bootstrap/index.html": "GtobJreIoDd1xwvFfN0QoQ",
+		"vs/workbench/electron-browser/bootstrap/index.js": "fmT/8wbv35WrTXTk9vFz4A",
+		"vs/workbench/electron-browser/bootstrap/preload.js": "AhM05hGXWpB7nq6xRmJIbA"
+	}
+}

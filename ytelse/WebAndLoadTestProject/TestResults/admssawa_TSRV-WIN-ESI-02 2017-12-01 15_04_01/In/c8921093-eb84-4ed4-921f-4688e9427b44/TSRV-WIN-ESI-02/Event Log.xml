@@ -1,0 +1,54 @@
+﻿<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1" msdata:Locale="" msprop:TimestampColumnName="DateTime" msprop:IndexColumnNames="Source,Type">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Type" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Source" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="212" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Category" type="xs:string" minOccurs="0" />
+                <xs:element name="EventID" type="xs:long" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="User" type="xs:string" minOccurs="0" />
+                <xs:element name="Computer" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Type>Error</Type>
+    <DateTime>2017-12-01T15:04:11+01:00</DateTime>
+    <Source>VSTTAgentProcess</Source>
+    <Category>(0)</Category>
+    <EventID>0</EventID>
+    <Description>The description for Event ID '0' in Source 'VSTTAgentProcess' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'(QTDCAgent.exe, PID 11132, Thread 16) Data collector 'datacollector://microsoft/VideoRecorder/1.0' logged the following error:
+Description:            
+Exception type:         System.BadImageFormatException
+Exception message:      Could not load file or assembly 'VSTestVideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+Exception stack trace:     at Microsoft.VisualStudio.TestTools.DataCollection.MediaRecorder.MediaFoundationRecorder.Stop()
+   at Microsoft.VisualStudio.TestTools.DataCollection.MediaRecorder.MediaFoundationRecorder.Dispose()
+   at Microsoft.VisualStudio.TestTools.DataCollection.MediaRecorder.MediaFoundationRecorderAdapter.Dispose(Boolean disposeManaged)
+   at Microsoft.VisualStudio.TestTools.DataCollection.MediaRecorder.EncoderPool.Release(EncoderAdapter encoder, Boolean reuseEncoder)
+   at Microsoft.VisualStudio.TestTools.DataCollection.MediaRecorder.MediaRecorderDataAdapter.&lt;&gt;c__DisplayClass17_0.&lt;OnTestCaseStart&gt;b__0()
+   at Microsoft.VisualStudio.TestTools.DataCollection.MediaRecorder.MediaRecorderDataAdapter.TryCatchAndLogError(DataCollectionContext context, Action action)'</Description>
+    <Computer>tsrv-win-esi-02.utvikling.local</Computer>
+  </Table1>
+</NewDataSet>

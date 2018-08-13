@@ -1,0 +1,10 @@
+{
+	"messages": [
+		"Token cache successfully cleared",
+		"Failed to clear token cache"
+	],
+	"keys": [
+		"clearTokenCacheSuccess",
+		"clearTokenCacheFailure"
+	]
+}

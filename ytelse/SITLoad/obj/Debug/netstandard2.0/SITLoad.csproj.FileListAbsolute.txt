@@ -1,0 +1,9 @@
+C:\ytelse\SITLoad\bin\Debug\netstandard2.0\SITLoad.deps.json
+C:\ytelse\SITLoad\bin\Debug\netstandard2.0\SITLoad.dll
+C:\ytelse\SITLoad\bin\Debug\netstandard2.0\SITLoad.pdb
+C:\ytelse\SITLoad\obj\Debug\netstandard2.0\SITLoad.csproj.CoreCompileInputs.cache
+C:\ytelse\SITLoad\obj\Debug\netstandard2.0\SITLoad.AssemblyInfoInputs.cache
+C:\ytelse\SITLoad\obj\Debug\netstandard2.0\SITLoad.AssemblyInfo.cs
+C:\ytelse\SITLoad\obj\Debug\netstandard2.0\SITLoad.dll
+C:\ytelse\SITLoad\obj\Debug\netstandard2.0\SITLoad.pdb
+C:\ytelse\SITLoad\obj\Debug\netstandard2.0\SITLoad.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\b\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\b\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\b\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\b\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\OwaspZapSecurityTesting.Tests.dll
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\b\WebAndLoadTestProject\OwaspZapSecurityTesting.Tests\bin\Debug\OwaspZapSecurityTesting.Tests.pdb
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\i\OwaspZapSecurityTesting.Tests\Debug\OwaspZapSecurityTesting.Tests.csprojResolveAssemblyReference.cache
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\i\OwaspZapSecurityTesting.Tests\Debug\OwaspZapSecurityTesting.Tests.csproj.CoreCompileInputs.cache
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\i\OwaspZapSecurityTesting.Tests\Debug\OwaspZapSecurityTesting.Tests.dll
+C:\ytelse\WebAndLoadTestProject\.vs\WebAndLoadTestProject\lut\0\i\OwaspZapSecurityTesting.Tests\Debug\OwaspZapSecurityTesting.Tests.pdb

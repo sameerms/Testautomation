@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d669238c-c62e-4a8c-b716-01a349c466db" name="admssawa@TSRV-WIN-ESI-02 2017-12-01 14:51:55" runUser="UTVIKLING\admssawa" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7244df3a-b8d4-4d35-867d-f75e916781e3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="admssawa_TSRV-WIN-ESI-02 2017-12-01 14_51_55">
+      <DeploymentItem filename="C:\ytelse\WebAndLoadTestProject\packages\MSTest.TestFramework.1.1.18\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll" />
+      <DeploymentItem filename="C:\ytelse\WebAndLoadTestProject\packages\MSTest.TestFramework.1.1.18\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" />
+      <DeploymentItem filename="C:\ytelse\WebAndLoadTestProject\packages\OWASPZAPDotNetAPI.2.6.1\lib\OWASPZAPDotNetAPI.dll" />
+    </Deployment>
+    <Execution hostProcessPlatform="MSIL">
+      <Hosts skipUnhostableTests="false">
+        <VSSDKTestHostRunConfig name="VS IDE" HiveKind="DevEnv" HiveName="15.0" xmlns="http://microsoft.com/schemas/VisualStudio/SDK/Tools/IdeHostAdapter/2006/06" />
+      </Hosts>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution applicationBaseDirectory="%HOMEDRIVE%\repo\Portal\config">
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Chrome 2" MaxConnections="6">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/5.0 (Windows; U; Windows NT 5.1;) AppleWebKit/530.1 (KHTML, like Gecko) Chrome/2.0.169.1 Safari/530.1" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="gzip,deflate" />
+              <Header name="Accept-Charset" value="ISO-8859-1,*,utf-8" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/AspNetProfiler/1.0" assemblyQualifiedName="Microsoft.VisualStudio.PerformanceTools.DataCollection.AspNetProfileDataCollector, Microsoft.VisualStudio.PerformanceTools.DataCollection, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Profiler">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/EventLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.EventLog.EventLogDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.EventLog, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Event Log">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/NetworkEmulation/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.NetworkEmulation.NetworkEmulationDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.NetworkEmulation, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Network Emulation">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+    <Properties>
+      <Property name="TestSettingsUIType" value="UnitTest" />
+    </Properties>
+  </TestSettings>
+  <Times creation="2017-12-01T14:51:55.6563874+01:00" queuing="2017-12-01T14:51:57.0634693+01:00" start="2017-12-01T14:52:03.4547014+01:00" finish="2017-12-01T14:52:19.1926658+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="TSRV-WIN-ESI-02" uri="datacollector://microsoft/EventLog/1.0" collectorDisplayName="Event Log">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="TSRV-WIN-ESI-02\Event Log.xml">
+            </A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+      <Collector agentName="TSRV-WIN-ESI-02" uri="datacollector://microsoft/NetworkEmulation/1.0" collectorDisplayName="Network Emulation">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="TSRV-WIN-ESI-02\NetworkEmulation.xml">Network Emulation on TSRV-WIN-ESI-02</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+      <Collector agentName="TSRV-WIN-ESI-02" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="TSRV-WIN-ESI-02\SystemInformation.xml">System Information from TSRV-WIN-ESI-02</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+    <DataCollectorMessages>
+      <DataCollectorMessage timestamp="2017-12-01T14:52:04.1682911+01:00" dataCollectorUri="datacollector://microsoft/VideoRecorder/1.0" dataCollectorFriendlyName="Screen and Voice Recorder" agentName="TSRV-WIN-ESI-02" level="Warning">
+        <Text>The computer 'TSRV-WIN-ESI-02' has more than one display. By default, only the screen from the primary display will be recorded. Run your application in this display. To know the primary display, you can use the Screen Resolution applet in Control Panel.</Text>
+      </DataCollectorMessage>
+    </DataCollectorMessages>
+  </ResultSummary>
+  <TestDefinitions>
+    <WebTest name="PostSak" storage="c:\ytelse\webandloadtestproject\elsaapi\sak\postsak.webtest" id="02d8ec67-a0a8-4c04-a646-172ce01ef50f" persistedWebTest="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KPFdlYlRlc3QgTmFtZT0iUG9zdFNhayIgSWQ9IjAyZDhlYzY3LWEwYTgtNGMwNC1hNjQ2LTE3MmNlMDFlZjUwZiIgT3duZXI9IiIgUHJpb3JpdHk9IjIxNDc0ODM2NDciIEVuYWJsZWQ9IlRydWUiIENzc1Byb2plY3RTdHJ1Y3R1cmU9IiIgQ3NzSXRlcmF0aW9uPSIiIFRpbWVvdXQ9IjAiIFdvcmtJdGVtSWRzPSIiIHhtbG5zPSJodHRwOi8vbWljcm9zb2Z0LmNvbS9zY2hlbWFzL1Zpc3VhbFN0dWRpby9UZWFtVGVzdC8yMDEwIiBEZXNjcmlwdGlvbj0iIiBDcmVkZW50aWFsVXNlck5hbWU9IiIgQ3JlZGVudGlhbFBhc3N3b3JkPSIiIFByZUF1dGhlbnRpY2F0ZT0iVHJ1ZSIgUHJveHk9ImRlZmF1bHQiIFN0b3BPbkVycm9yPSJGYWxzZSIgUmVjb3JkZWRSZXN1bHRGaWxlPSJXZWJUZXN0MS5hOWZlZWM3Mi1iNTI5LTQ2NmItYmQ5NC02OWIwN2MyYjUzNGMucmVjLndlYnRlc3RyZXN1bHQiIFJlc3VsdHNMb2NhbGU9IiI+DQogIDxJdGVtcz4NCiAgICA8UmVxdWVzdCBNZXRob2Q9IlBPU1QiIEd1aWQ9IjNlZGZjZTA0LTA4YTktNDViMy05ZmMwLTRlN2I4YWVmYjMwMyIgVmVyc2lvbj0iMS4xIiBVcmw9Imh0dHA6Ly9sb2NhbGhvc3Q6MzQwNTcvYXBpZG9rL3NhayIgVGhpbmtUaW1lPSIwIiBUaW1lb3V0PSIzMDAiIFBhcnNlRGVwZW5kZW50UmVxdWVzdHM9IlRydWUiIEZvbGxvd1JlZGlyZWN0cz0iVHJ1ZSIgUmVjb3JkUmVzdWx0PSJUcnVlIiBDYWNoZT0iRmFsc2UiIFJlc3BvbnNlVGltZUdvYWw9IjIiIEVuY29kaW5nPSJ1dGYtOCIgRXhwZWN0ZWRIdHRwU3RhdHVzQ29kZT0iMCIgRXhwZWN0ZWRSZXNwb25zZVVybD0iIiBSZXBvcnRpbmdOYW1lPSIiIElnbm9yZUh0dHBTdGF0dXNDb2RlPSJGYWxzZSI+DQogICAgICA8SGVhZGVycz4NCiAgICAgICAgPEhlYWRlciBOYW1lPSJBY2NlcHQiIFZhbHVlPSJhcHBsaWNhdGlvbi9qc29uIiAvPg0KICAgICAgICA8SGVhZGVyIE5hbWU9IlJlZmVyZXIiIFZhbHVlPSJodHRwOi8vZWxzYS1hcGlzaXQudXR2aWtsaW5nLmxvY2FsL2FwaWRvay8iIC8+DQogICAgICA8L0hlYWRlcnM+DQogICAgICA8U3RyaW5nSHR0cEJvZHkgQ29udGVudFR5cGU9ImFwcGxpY2F0aW9uL2pzb24iIEluc2VydEJ5dGVPcmRlck1hcms9IkZhbHNlIj5ld0FLQUNBQUlBQWlBR1lBYmdCeUFDSUFPZ0FnQUNJQU1BQTJBREFBTVFBMEFERUFNd0F4QURNQU13QTFBQ0lBTEFBS0FDQUFJQUFpQUhNQVlRQnJBSE1BVkFCNUFIQUFaUUJKQUdRQUlnQTZBQ0FBTVFBc0FBb0FmUUE9PC9TdHJpbmdIdHRwQm9keT4NCiAgICA8L1JlcXVlc3Q+DQogIDwvSXRlbXM+DQogIDxWYWxpZGF0aW9uUnVsZXM+DQogICAgPFZhbGlkYXRpb25SdWxlIENsYXNzbmFtZT0iTWljcm9zb2Z0LlZpc3VhbFN0dWRpby5UZXN0VG9vbHMuV2ViVGVzdGluZy5SdWxlcy5WYWxpZGF0ZVJlc3BvbnNlVXJsLCBNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLlF1YWxpdHlUb29scy5XZWJUZXN0RnJhbWV3b3JrLCBWZXJzaW9uPTEwLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EiIERpc3BsYXlOYW1lPSJSZXNwb25zZSBVUkwiIERlc2NyaXB0aW9uPSJWYWxpZGF0ZXMgdGhhdCB0aGUgcmVzcG9uc2UgVVJMIGFmdGVyIHJlZGlyZWN0cyBhcmUgZm9sbG93ZWQgaXMgdGhlIHNhbWUgYXMgdGhlIHJlY29yZGVkIHJlc3BvbnNlIFVSTC4gIFF1ZXJ5U3RyaW5nIHBhcmFtZXRlcnMgYXJlIGlnbm9yZWQuIiBMZXZlbD0iTG93IiBFeGVjdHVpb25PcmRlcj0iQmVmb3JlRGVwZW5kZW50cyIgLz4NCiAgICA8VmFsaWRhdGlvblJ1bGUgQ2xhc3NuYW1lPSJNaWNyb3NvZnQuVmlzdWFsU3R1ZGlvLlRlc3RUb29scy5XZWJUZXN0aW5nLlJ1bGVzLlZhbGlkYXRpb25SdWxlUmVzcG9uc2VUaW1lR29hbCwgTWljcm9zb2Z0LlZpc3VhbFN0dWRpby5RdWFsaXR5VG9vbHMuV2ViVGVzdEZyYW1ld29yaywgVmVyc2lvbj0xMC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhIiBEaXNwbGF5TmFtZT0iUmVzcG9uc2UgVGltZSBHb2FsIiBEZXNjcmlwdGlvbj0iVmFsaWRhdGVzIHRoYXQgdGhlIHJlc3BvbnNlIHRpbWUgZm9yIHRoZSByZXF1ZXN0IGlzIGxlc3MgdGhhbiBvciBlcXVhbCB0byB0aGUgcmVzcG9uc2UgdGltZSBnb2FsIGFzIHNwZWNpZmllZCBvbiB0aGUgcmVxdWVzdC4gIFJlc3BvbnNlIHRpbWUgZ29hbHMgb2YgemVybyB3aWxsIGJlIGlnbm9yZWQuIiBMZXZlbD0iTG93IiBFeGVjdHVpb25PcmRlcj0iQWZ0ZXJEZXBlbmRlbnRzIj4NCiAgICAgIDxSdWxlUGFyYW1ldGVycz4NCiAgICAgICAgPFJ1bGVQYXJhbWV0ZXIgTmFtZT0iVG9sZXJhbmNlIiBWYWx1ZT0iMCIgLz4NCiAgICAgIDwvUnVsZVBhcmFtZXRlcnM+DQogICAgPC9WYWxpZGF0aW9uUnVsZT4NCiAgPC9WYWxpZGF0aW9uUnVsZXM+DQo8L1dlYlRlc3Q+">
+      <Execution id="bd2015ea-5676-4549-a234-755f7fc78a42" />
+    </WebTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry isTransparent="false" testId="02d8ec67-a0a8-4c04-a646-172ce01ef50f" executionId="bd2015ea-5676-4549-a234-755f7fc78a42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <WebTestResult executionId="bd2015ea-5676-4549-a234-755f7fc78a42" testId="02d8ec67-a0a8-4c04-a646-172ce01ef50f" testName="PostSak" computerName="TSRV-WIN-ESI-02" duration="00:00:01.4525009" startTime="2017-12-01T14:52:04.2458029+01:00" endTime="2017-12-01T14:52:17.3994767+01:00" testType="4e7599fa-5ecb-43e9-a887-cd63cf72d207" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd2015ea-5676-4549-a234-755f7fc78a42">
+      <Output>
+        <ErrorInfo>
+          <Message>1 primary requests, 0 dependant requests and 0 conditional rules failed</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="PostSak.webtestResult" />
+      </ResultFiles>
+      <CollectorDataEntries>
+        <Collector agentName="TSRV-WIN-ESI-02" uri="datacollector://microsoft/EventLog/1.0" collectorDisplayName="Event Log">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="TSRV-WIN-ESI-02\Event Log.xml">
+              </A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="TSRV-WIN-ESI-02" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="TSRV-WIN-ESI-02\QTAgent_40_171201_145216776_2196.iTrace">IntelliTrace file for 'QTAgent_40.exe' (2196)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="TSRV-WIN-ESI-02" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="TSRV-WIN-ESI-02\SystemInformation.xml">System Information from TSRV-WIN-ESI-02</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+      <DataCollectorMessages>
+        <DataCollectorExceptionMessage timestamp="2017-12-01T14:52:17.3524713+01:00" dataCollectorUri="datacollector://microsoft/VideoRecorder/1.0" dataCollectorFriendlyName="Screen and Voice Recorder" agentName="TSRV-WIN-ESI-02" level="Error">
+          <Text>Operation is not valid due to the current state of the object.</Text>
+          <ExceptionType>System.InvalidOperationException</ExceptionType>
+          <ExceptionMessage>Operation is not valid due to the current state of the object.</ExceptionMessage>
+          <StackTrace>   at Microsoft.VisualStudio.TestTools.DataCollection.MediaRecorder.EncoderPool.Release(EncoderAdapter encoder, Boolean reuseEncoder)
+   at Microsoft.VisualStudio.TestTools.DataCollection.MediaRecorder.MediaRecorderDataAdapter.&lt;&gt;c__DisplayClass22_0.&lt;OnTestCaseEnd&gt;b__0()
+   at Microsoft.VisualStudio.TestTools.DataCollection.MediaRecorder.MediaRecorderDataAdapter.TryCatchAndLogError(DataCollectionContext context, Action action)</StackTrace>
+        </DataCollectorExceptionMessage>
+      </DataCollectorMessages>
+      <TestSettings name="Local" id="7244df3a-b8d4-4d35-867d-f75e916781e3">
+        <Description>These are default test settings for a local test run.</Description>
+        <Deployment runDeploymentRoot="admssawa_TSRV-WIN-ESI-02 2017-12-01 14_51_55">
+          <DeploymentItem filename="C:\ytelse\WebAndLoadTestProject\packages\MSTest.TestFramework.1.1.18\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll" />
+          <DeploymentItem filename="C:\ytelse\WebAndLoadTestProject\packages\MSTest.TestFramework.1.1.18\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" />
+          <DeploymentItem filename="C:\ytelse\WebAndLoadTestProject\packages\OWASPZAPDotNetAPI.2.6.1\lib\OWASPZAPDotNetAPI.dll" />
+        </Deployment>
+        <Execution hostProcessPlatform="MSIL">
+          <Hosts skipUnhostableTests="false">
+            <VSSDKTestHostRunConfig name="VS IDE" HiveKind="DevEnv" HiveName="15.0" xmlns="http://microsoft.com/schemas/VisualStudio/SDK/Tools/IdeHostAdapter/2006/06" />
+          </Hosts>
+          <TestTypeSpecific>
+            <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+              <AssemblyResolution applicationBaseDirectory="%HOMEDRIVE%\repo\Portal\config">
+                <TestDirectory useLoadContext="true" />
+              </AssemblyResolution>
+            </UnitTestRunConfig>
+            <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+              <Browser name="Chrome 2" MaxConnections="6">
+                <Headers>
+                  <Header name="User-Agent" value="Mozilla/5.0 (Windows; U; Windows NT 5.1;) AppleWebKit/530.1 (KHTML, like Gecko) Chrome/2.0.169.1 Safari/530.1" />
+                  <Header name="Accept" value="*/*" />
+                  <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+                  <Header name="Accept-Encoding" value="gzip,deflate" />
+                  <Header name="Accept-Charset" value="ISO-8859-1,*,utf-8" />
+                </Headers>
+              </Browser>
+            </WebTestRunConfiguration>
+          </TestTypeSpecific>
+          <AgentRule name="LocalMachineDefaultRole">
+            <DataCollectors>
+              <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+              </DataCollector>
+              <DataCollector uri="datacollector://microsoft/AspNetProfiler/1.0" assemblyQualifiedName="Microsoft.VisualStudio.PerformanceTools.DataCollection.AspNetProfileDataCollector, Microsoft.VisualStudio.PerformanceTools.DataCollection, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Profiler">
+              </DataCollector>
+              <DataCollector uri="datacollector://microsoft/EventLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.EventLog.EventLogDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.EventLog, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Event Log">
+              </DataCollector>
+              <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+              </DataCollector>
+              <DataCollector uri="datacollector://microsoft/NetworkEmulation/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.NetworkEmulation.NetworkEmulationDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.NetworkEmulation, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Network Emulation">
+              </DataCollector>
+              <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder">
+              </DataCollector>
+              <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+              </DataCollector>
+              <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+              </DataCollector>
+            </DataCollectors>
+          </AgentRule>
+        </Execution>
+        <Properties>
+          <Property name="TestSettingsUIType" value="UnitTest" />
+        </Properties>
+      </TestSettings>
+      <WebTestResultFilePath>admssawa_TSRV-WIN-ESI-02 2017-12-01 14_51_55\In\bd2015ea-5676-4549-a234-755f7fc78a42\PostSak.webtestResult</WebTestResultFilePath>
+    </WebTestResult>
+  </Results>
+</TestRun>
